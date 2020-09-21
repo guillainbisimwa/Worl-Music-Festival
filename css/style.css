@@ -5,6 +5,7 @@
   --dark-color: #272a31;
   --gray-color: #d3d3d3;
   --white: #fff;
+  --gray-60-color: #2120204d;
 }
 
 /* SETUP FONT */
@@ -76,7 +77,7 @@ a:hover {
 
 .section-presentation {
   background: url(../img/bg-sec-1.png) top no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .section-presentation h1 {
@@ -93,7 +94,7 @@ a:hover {
 }
 
 .section-presentation p.w-50 {
-  border: 0.3rem solid var(--gray-color);
+  border: 0.3rem solid var(--gray-60-color);
 }
 
 .section-presentation h2 {
