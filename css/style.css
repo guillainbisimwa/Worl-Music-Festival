@@ -4,13 +4,14 @@
   --primary-color: #ec5242;
   --dark-color: #272a31;
   --gray-color: #d3d3d3;
+  --white: #fff;
 }
 
 /* SETUP FONT */
 
 @font-face {
   font-family: "Cocogoose";
-  src: url("../fonts/Cocogoose.ttf");
+  src: url("../fonts/Cocogoose.otf");
 }
 
 /* GLOBALS */
@@ -40,7 +41,7 @@ a:hover {
 /* COLORS */
 
 .c-primary {
-  color: var(--main-bg-color);
+  color: var(--primary-color);
 }
 
 .c-dark {
@@ -52,7 +53,7 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: var(--main-bg-color);
+  background-color: var(--primary-color);
 }
 
 .bg-dark {
@@ -69,4 +70,37 @@ a:hover {
 
 .col-gap {
   column-gap: 1.5rem;
+}
+
+/* Section 1 - Presentation */
+
+.section-presentation {
+  background: url(../img/bg-sec-1.png) top no-repeat;
+  background-size: 100%;
+}
+
+.section-presentation h1 {
+  font-family: "Cocogoose";
+  font-size: 5rem;
+  background-image: url(../img/bg-txt.jpg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.section-presentation h3 {
+  font-size: 2.5rem;
+}
+
+.section-presentation p.w-50 {
+  border: 0.3rem solid var(--gray-color);
+}
+
+.section-presentation h2 {
+  font-family: "Cocogoose";
+  font-size: 2.5rem;
+}
+
+.adress {
+  font-size: 1.6rem;
 }
