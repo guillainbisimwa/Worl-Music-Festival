@@ -1,0 +1,72 @@
+/* Style Sheet */
+
+:root {
+  --primary-color: #ec5242;
+  --dark-color: #272a31;
+  --gray-color: #d3d3d3;
+}
+
+/* SETUP FONT */
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url("../fonts/Cocogoose.ttf");
+}
+
+/* GLOBALS */
+
+html {
+  /* font-size: 62.5%; */
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+}
+
+/* COLORS */
+
+.c-primary {
+  color: var(--main-bg-color);
+}
+
+.c-dark {
+  color: var(--dark-color);
+}
+
+.c-gray {
+  color: var(--gray-color);
+}
+
+.bg-primary {
+  background-color: var(--main-bg-color);
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+}
+
+.bg-gray {
+  background-color: var(--gray-color);
+}
+
+.row {
+  margin: 0;
+}
+
+.col-gap {
+  column-gap: 1.5rem;
+}
