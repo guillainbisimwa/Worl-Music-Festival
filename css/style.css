@@ -73,6 +73,17 @@ a:hover {
   column-gap: 1.5rem;
 }
 
+/* Header */
+button.campaign {
+  background: transparent;
+  border: 0.3rem solid var(--primary-color);
+}
+
+button.campaign:hover {
+  background: transparent;
+  border: 0.3rem solid var(--primary-color);
+}
+
 /* Section 1 - Presentation */
 
 .section-presentation {
@@ -104,4 +115,10 @@ a:hover {
 
 .adress {
   font-size: 1.6rem;
+}
+
+/* Section 2 - Main program */
+.main-program {
+  background: url(../img/bg-rep.png) top repeat;
+  /* background-size: cover; */
 }
