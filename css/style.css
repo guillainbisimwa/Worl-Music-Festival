@@ -31,6 +31,10 @@ html {
   box-sizing: inherit;
 }
 
+/* body {
+  padding: 0 1.5rem;
+} */
+
 img {
   max-width: 100%;
   height: auto;
@@ -39,6 +43,10 @@ img {
 a:hover {
   color: var(--primary-color) !important;
   text-decoration: none;
+}
+
+p {
+  margin-bottom: 0 !important;
 }
 
 /* COLORS */
@@ -56,7 +64,7 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color) !important;
 }
 
 .bg-dark {
@@ -98,6 +106,10 @@ button.campaign:hover {
   border: 0.3rem solid var(--primary-color);
 }
 
+.c-pointer {
+  cursor: pointer;
+}
+
 /* Section 1 - Presentation */
 
 .section-presentation {
@@ -107,7 +119,7 @@ button.campaign:hover {
 
 .section-presentation h1 {
   font-family: "Cocogoose";
-  font-size: 5rem;
+  font-size: 5.5rem;
   background-image: url(../img/bg-txt.jpg);
   background-clip: text;
   -webkit-background-clip: text;
@@ -118,7 +130,7 @@ button.campaign:hover {
   font-size: 2.5rem;
 }
 
-.section-presentation p.w-50 {
+.section-presentation .details {
   border: 0.3rem solid var(--gray-60-color);
 }
 

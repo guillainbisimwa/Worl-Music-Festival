@@ -12,8 +12,8 @@
     ></script>
   </head>
   <body>
-    <header class="border-bottom">
-      <nav class="row">
+    <header class="border-bottom p-2 p-sm-0">
+      <nav class="row d-none d-md-block">
         <div class="col-sm p-2 d-flex justify-content-end col-gap bg-dark pr-3">
           <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
           <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
@@ -21,7 +21,8 @@
           <a href="#" class="text-white">Français</a>
         </div>
       </nav>
-      <nav class="container">
+      <nav class="row d-none d-md-block">
+        <div class="col-sm-1"></div>
         <div
           class="col-sm d-flex justify-content-around col-gap align-items-center font-weight-bold"
         >
@@ -35,15 +36,24 @@
             <button class="btn c-primary campaign">CC Campain</button>
           </div>
         </div>
+        <div class="col-sm-1"></div>
+      </nav>
+      <nav class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm">
+        <i class="fas fa-bars d-block d-md-none position-absolute h2 text-dark-50 pt-5 c-pointer"></i>
+        </div>
+        <div class="col-sm-1"></div>
       </nav>
     </header>
     <main class="container-fluid p-0">
-      <section class="section-presentation c-dark">
-        <div class="container pt-5 pb-5">
+      <section class="section-presentation c-dark row p-2 p-sm-0">
+        <div class="col-sm-1"></div>
+        <div class="col-sm pt-5 pb-5">
           <h3 class="c-primary pt-5">"Hello! Sing for peace"</h3>
           <h1><span> THE WORLD PEACE MUSIC FESTIVAL 2022</span></h1>
           <div>
-            <p class="w-50 p-1">
+            <p class="col-12 col-md-6 p-1 details">
               Bringing together through culture and providing a space for
               celebration where people from all over the world can share their
               cultures.
@@ -54,27 +64,28 @@
             @ In johanesburg, south africa, central park zoo
           </p>
         </div>
+        <div class="col-sm-1"></div>
       </section>
-      <section class="main-program text-white text-center">
+      <section class="main-program text-white text-center p-2 p-sm-0">
         <div class="row py-5">
           <div class="col-sm-12 position-relative">
             <h5 class="pb-2">Main Program</h5>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm"></div>
+        <div class="row text-left text-sm-center">
+          <div class="col-sm-1"></div>
           <div
-            class="col-sm d-flex flex-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
+            class="col-sm col-gap d-flex flex-row flex-sm-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
           >
             <i class="fas pt-2 fa-guitar"></i>
-            <a href="#" class="h5 c-primary">Lorem ipsum</a>
+            <a href="#" class="h5 c-primary">Lorem ipsum man</a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
           <div
-            class="col-sm d-flex flex-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
+            class="col-sm col-gap d-flex flex-row flex-sm-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
           >
             <i class="fas pt-2 fa-drum"></i>
             <a href="#" class="h5 c-primary">Lorem ipsum</a>
@@ -84,7 +95,7 @@
             </p>
           </div>
           <div
-            class="col-sm d-flex flex-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
+            class="col-sm col-gap d-flex flex-row flex-sm-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
           >
             <i class="fas pt-2 fa-headphones"></i>
             <a href="#" class="h5 c-primary">Lorem ipsum</a>
@@ -94,7 +105,7 @@
             </p>
           </div>
           <div
-            class="col-sm d-flex flex-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
+            class="col-sm col-gap d-flex flex-row flex-sm-column border rounded border-secondary bg-w-transparent m-1 p-2 align-items-center"
           >
             <i class="fas pt-2 fa-microphone-alt"></i>
             <a href="#" class="h5 c-primary">Lorem ipsum</a>
@@ -103,27 +114,28 @@
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div class="col-sm"></div>
-          <div class="col-sm-12 py-5">
-            <a href="#" class="text-uppercase see-more text-white"
+          <div class="col-sm-1"></div>
+          <div class="col-sm-12 py-5 d-flex justify-content-center">
+            <a href="#" class="d-none d-sm-block text-uppercase see-more text-white"
               >SEE THE WHOLE PROGRAM</a
             >
+            <button class="btn btn-lg bg-primary text-white py-4 w-75 "> Dolore magna aliqua 2020</button>
           </div>
         </div>
       </section>
-      <section class="guests-section text-center c-dark">
+      <section class="guests-section text-center c-dark p-2 p-sm-0">
         <div class="row py-5">
           <div class="col-sm-12 position-relative">
             <h5 class="pb-2 head-title">Our guests</h5>
           </div>
         </div>
         <div class="row text-left pb-5">
-          <div class="col-sm-2"></div>
+          <div class="col-sm-1"></div>
           <div class="col-sm">
             <div class="row">
               <div class="col-sm-6 guests-container">
                 <div class="row d-flex">
-                  <div class="col-sm-4 position-relative">
+                  <div class="col-4 position-relative">
                     <img src="img/pic9.png" alt="Profile" />
                     <img
                       src="img/bg-no-color.png"
@@ -131,7 +143,7 @@
                       alt="Profile bg"
                     />
                   </div>
-                  <div class="col-sm-8">
+                  <div class="col-8">
                     <h5 class="h4 font-weight-bold">Guillain BISIMWA</h5>
                     <p
                       class="artist-title position-relative pb-2 c-primary font-italic font-weight-bold"
@@ -148,7 +160,7 @@
 
               <div class="col-sm-6 guests-container">
                 <div class="row d-flex">
-                  <div class="col-sm-4 position-relative">
+                  <div class="col-4 position-relative">
                     <img src="img/pic7.png" alt="Profile" />
                     <img
                       src="img/bg-no-color.png"
@@ -156,7 +168,7 @@
                       alt="Profile"
                     />
                   </div>
-                  <div class="col-sm-8">
+                  <div class="col-8">
                     <h5 class="h4 font-weight-bold">Guillain BISIMWA</h5>
                     <p
                       class="artist-title position-relative pb-2 c-primary font-italic font-weight-bold"
@@ -173,7 +185,7 @@
 
               <div class="col-sm-6 guests-container">
                 <div class="row d-flex">
-                  <div class="col-sm-4 position-relative">
+                  <div class="col-4 position-relative">
                     <img src="img/pic2.png" alt="Profile" />
                     <img
                       src="img/bg-no-color.png"
@@ -181,7 +193,7 @@
                       alt="Profile"
                     />
                   </div>
-                  <div class="col-sm-8">
+                  <div class="col-8">
                     <h5 class="h4 font-weight-bold">Guillain BISIMWA</h5>
                     <p
                       class="artist-title position-relative pb-2 c-primary font-italic font-weight-bold"
@@ -198,7 +210,7 @@
 
               <div class="col-sm-6 guests-container">
                 <div class="row d-flex">
-                  <div class="col-sm-4 position-relative">
+                  <div class="col-4 position-relative">
                     <img src="img/pic1.PNG" alt="Profile" />
                     <img
                       src="img/bg-no-color.png"
@@ -206,7 +218,7 @@
                       alt="Profile"
                     />
                   </div>
-                  <div class="col-sm-8">
+                  <div class="col-8">
                     <h5 class="h4 font-weight-bold">Guillain BISIMWA</h5>
                     <p
                       class="artist-title position-relative pb-2 c-primary font-italic font-weight-bold"
@@ -223,7 +235,7 @@
 
               <div class="col-sm-6 guests-container">
                 <div class="row d-flex">
-                  <div class="col-sm-4 position-relative">
+                  <div class="col-4 position-relative">
                     <img src="img/pic4.png" alt="Profile" />
                     <img
                       src="img/bg-no-color.png"
@@ -231,7 +243,7 @@
                       alt="Profile"
                     />
                   </div>
-                  <div class="col-sm-8">
+                  <div class="col-8">
                     <h5 class="h4 font-weight-bold">Guillain BISIMWA</h5>
                     <p
                       class="artist-title position-relative pb-2 c-primary font-italic font-weight-bold"
@@ -248,7 +260,7 @@
 
               <div class="col-sm-6 guests-container">
                 <div class="row d-flex">
-                  <div class="col-sm-4 position-relative">
+                  <div class="col-4 position-relative">
                     <img src="img/pic11.png" alt="Profile" />
                     <img
                       src="img/bg-no-color.png"
@@ -256,7 +268,7 @@
                       alt="Profile"
                     />
                   </div>
-                  <div class="col-sm-8">
+                  <div class="col-8">
                     <h5 class="h4 font-weight-bold">Guillain BISIMWA</h5>
                     <p
                       class="artist-title position-relative pb-2 c-primary font-italic font-weight-bold"
@@ -272,55 +284,71 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-2"></div>
+          <div class="col-sm-1"></div>
         </div>
       </section>
-      <section class="partners text-center bg-dark c-gray pb-5">
+      <section class="partners text-center bg-dark c-gray pb-5 p-2 p-sm-0">
         <div class="row py-5">
           <div class="col-sm-12 position-relative">
             <h5 class="pb-2 head-title">Our partners</h5>
           </div>
         </div>
         <div class="row pb-5">
-          <div class="col-sm-2"></div>
+          <div class="col-sm-1"></div>
           <div class="col-sm">
             <div class="row">
-              <div class="col-sm px-4">
+              <div class="col d-block d-sm-none"></div>
+              <div class="col-3 px-2 px-sm-4 col-sm">
                 <img src="img/partners/p6.png" alt="Mozilla" />
               </div>
-              <div class="col-sm px-4">
+              <div class="col-3 px-2 px-sm-4 col-sm">
                 <img src="img/partners/p2.png" alt="Mozilla" />
               </div>
-              <div class="col-sm px-4">
+              <div class="col-3 px-2 px-sm-4 col-sm">
                 <img src="img/partners/p3.png" alt="Mozilla" />
               </div>
-              <div class="col-sm px-4">
+              <div class="col d-block d-sm-none"></div>
+              <div class="col-3 px-2 px-sm-4 col-sm d-none d-sm-block">
                 <img src="img/partners/p4.png" alt="Mozilla" />
               </div>
-              <div class="col-sm px-4">
+              <div class="col-3 px-2 px-sm-4 col-sm d-none d-sm-block">
                 <img src="img/partners/p1.png" alt="Mozilla" />
               </div>
+
+            </div>
+            <div class="row">
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col-3 px-2 px-sm-4 d-block d-sm-none">
+                <img src="img/partners/p4.png" alt="Mozilla" />
+              </div>
+              
+              <div class="col-3 px-2 px-sm-4 d-block d-sm-none">
+                <img src="img/partners/p1.png" alt="Mozilla" />
+              </div>
+              <div class="col"></div>
+              <div class="col"></div>
             </div>
           </div>
-          <div class="col-sm-2"></div>
+          <div class="col-sm-1"></div>
         </div>
       </section>
     </main>
-    <footer class="py-5">
+    <footer class="py-5 p-2 p-sm-0">
       <div class="row py-5">
-        <div class="col-sm-2"></div>
+        <div class="col-sm-1"></div>
         <div class="col-sm">
           <div class="row">
-            <div class="col-sm-4 d-flex col-gap align-items-center">
+            <div class="col-5 col-sm-4 d-flex col-gap align-items-center">
               <i class="far fa-closed-captioning"></i>
               <h2 class="font-weight-bold h2">
-                </i> Incididuntibus laborem et
+                </i> Incididunti <br> laborem et
                 dolore
               </h2>
             </div>
-            <div class="col-sm pl-4">
+            <div class="col pl-4">
               <p>2020, Incididunt ut labore et dolore magnata</p>
-              <p>
+              <p class=" d-none d-sm-block">
                 Incididunt ut labore et dolore magnata Incididunt ut labore et
                 dolore magnata Incididunt ut labore et dolore magnataIncididunt
                 ut labore et dolore magnata
@@ -328,7 +356,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-2"></div>
+        <div class="col-sm-1"></div>
       </div>
     </footer>
   </body>
