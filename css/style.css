@@ -6,6 +6,7 @@
   --gray-color: #d3d3d3;
   --gray-60-color: #2120204d;
   --white-transparent: #f6f7f726;
+  --primary-transparent: #ec5242bf;
 }
 
 /* SETUP FONT */
@@ -204,4 +205,33 @@ footer .h2 {
 
 .m-auto {
   margin: auto;
+}
+
+.past {
+  height: 100%;
+  background: var(--primary-transparent);
+}
+
+.img-past {
+  background: url(../img/kigali.jpg) top no-repeat;
+}
+
+.img-past2 {
+  background: url(../img/kin.jpg) top no-repeat;
+}
+.img-past,
+.img-past2 {
+  background-size: 100%;
+}
+
+.past-detail {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.h-230 {
+  height: 230px !important;
 }
