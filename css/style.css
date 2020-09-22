@@ -137,7 +137,8 @@ button.campaign:hover {
 }
 
 .main-program h5::after,
-.guests-section .head-title::after {
+.guests-section .head-title::after,
+.partners h5::after {
   content: " ";
   width: 5%;
   background-color: var(--primary-color);
