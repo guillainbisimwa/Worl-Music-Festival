@@ -19,6 +19,7 @@
 /* GLOBALS */
 
 html {
+  font-size: 85%;
   /* font-size: 62.5%; */
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
@@ -74,6 +75,14 @@ a:hover {
   margin: 0;
 }
 
+.col-sm,
+.col-sm-2,
+.col-sm-6,
+.col-sm-8,
+.col-sm-4 {
+  padding: 0;
+}
+
 .col-gap {
   column-gap: 1.5rem;
 }
@@ -127,7 +136,8 @@ button.campaign:hover {
   background: url(../img/bg-rep.png) top repeat;
 }
 
-.main-program h5::after {
+.main-program h5::after,
+.guests-section .head-title::after {
   content: " ";
   width: 5%;
   background-color: var(--primary-color);
@@ -143,4 +153,27 @@ button.campaign:hover {
 
 .see-more {
   text-decoration: underline;
+}
+
+/* Section 3 - Guests */
+.guests-container div > div {
+  padding: 1rem;
+}
+
+.bg-profile {
+  position: absolute;
+  width: 40%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.artist-title span::after {
+  content: " ";
+  width: 10%;
+  background-color: var(--gray-color);
+  height: 0.1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
