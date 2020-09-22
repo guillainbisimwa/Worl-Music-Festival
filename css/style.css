@@ -179,6 +179,12 @@ button.campaign:hover {
   left: 0;
 }
 
-/* Section 4 - Our parteners */
-.partners {
+/* Footer */
+.fa-closed-captioning {
+  font-size: 4.5rem;
+}
+
+footer .h2 {
+  line-height: 22px;
+  letter-spacing: 0px;
 }
