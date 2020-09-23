@@ -243,3 +243,25 @@ footer .h2 {
   padding: 0;
   border-image: url(../img/envelop2.png) 100 round;
 }
+
+.sm-font {
+  font-size: 0.5rem;
+  padding-top: 10px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.fa-angle-down {
+  z-index: 1;
+  left: 0.4rem;
+  top: 0.8rem;
+  bottom: 0;
+  margin: auto;
+}
+
+.separation {
+  margin: -0.8rem auto;
+  width: 1%;
+}
