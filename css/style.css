@@ -12,8 +12,10 @@
 /* SETUP FONT */
 
 @font-face {
-  font-family: "Cocogoose";
-  src: url("../fonts/Cocogoose.otf");
+  font-family: "COCOGOOSE";
+  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"),
+    url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"),
+    url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
 }
 
 /* GLOBALS */
@@ -107,7 +109,7 @@ button.campaign:hover {
 }
 
 .section-presentation h1 {
-  font-family: Cocogoose;
+  font-family: "COCOGOOSE";
   font-size: 5.5rem;
   background-image: url(../img/bg-txt.jpg);
   background-clip: text;
@@ -124,7 +126,7 @@ button.campaign:hover {
 }
 
 .section-presentation h2 {
-  font-family: Cocogoose;
+  font-family: "COCOGOOSE";
   font-size: 2.5rem;
 }
 
