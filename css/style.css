@@ -63,7 +63,7 @@ p {
   color: var(--gray-color);
 }
 
-.bg-primary {
+.bg-primary_ {
   background-color: var(--primary-color) !important;
 }
 
