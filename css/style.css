@@ -230,6 +230,7 @@ footer .h2 {
   margin: auto;
   left: 0;
   right: 0;
+  height: fit-content;
 }
 
 .h-230 {
