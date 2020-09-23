@@ -20,20 +20,9 @@
 
 html {
   font-size: 85%;
-  /* font-size: 62.5%; */
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-/* body {
-  padding: 0 1.5rem;
-} */
 
 img {
   max-width: 100%;
@@ -118,7 +107,7 @@ button.campaign:hover {
 }
 
 .section-presentation h1 {
-  font-family: "Cocogoose";
+  font-family: Cocogoose;
   font-size: 5.5rem;
   background-image: url(../img/bg-txt.jpg);
   background-clip: text;
@@ -135,7 +124,7 @@ button.campaign:hover {
 }
 
 .section-presentation h2 {
-  font-family: "Cocogoose";
+  font-family: Cocogoose;
   font-size: 2.5rem;
 }
 
@@ -198,7 +187,7 @@ button.campaign:hover {
 
 footer .h2 {
   line-height: 22px;
-  letter-spacing: 0px;
+  letter-spacing: 0;
 }
 
 /* About Page */
@@ -219,6 +208,7 @@ footer .h2 {
 .img-past2 {
   background: url(../img/kin.jpg) top no-repeat;
 }
+
 .img-past,
 .img-past2 {
   background-size: cover;
