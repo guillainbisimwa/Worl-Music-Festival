@@ -235,3 +235,11 @@ footer .h2 {
 .h-230 {
   height: 230px !important;
 }
+
+/* Ticket Page */
+
+.tab-border {
+  border: 10px solid transparent;
+  padding: 0;
+  border-image: url(../img/envelop2.png) 100 round;
+}
