@@ -221,7 +221,7 @@ footer .h2 {
 }
 .img-past,
 .img-past2 {
-  background-size: 100%;
+  background-size: cover;
 }
 
 .past-detail {
@@ -230,6 +230,7 @@ footer .h2 {
   margin: auto;
   left: 0;
   right: 0;
+  height: fit-content;
 }
 
 .h-230 {
