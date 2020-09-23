@@ -221,7 +221,7 @@ footer .h2 {
 }
 .img-past,
 .img-past2 {
-  background-size: 100%;
+  background-size: cover;
 }
 
 .past-detail {
