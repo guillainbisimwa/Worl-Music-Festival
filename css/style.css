@@ -13,9 +13,7 @@
 
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"),
-    url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"),
-    url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
+  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"), url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"), url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
 }
 
 /* GLOBALS */
@@ -117,7 +115,7 @@ button.campaign:hover {
 }
 
 .section-presentation h2 {
-  font-family: COCOGOOSE;
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
 }
 
