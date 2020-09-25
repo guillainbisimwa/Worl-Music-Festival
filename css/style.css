@@ -257,4 +257,19 @@ header {
   z-index: 100;
   top: 0;
   left: 0;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+  /* #navbarTogglerMenu {
+    padding: 2rem;
+  } */
 }
