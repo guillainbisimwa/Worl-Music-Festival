@@ -108,6 +108,16 @@ button.campaign:hover {
   background-size: cover;
 }
 
+.section-presentation h1 {
+  font-family: "Cocogoose";
+  font-size: 3rem;
+  background-image: url(../img/bg-txt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .section-presentation h3 {
   font-size: 2.5rem;
 }
@@ -269,7 +279,7 @@ header {
     left: 0;
     background-color: #fff;
   }
-  /* #navbarTogglerMenu {
-    padding: 2rem;
-  } */
+  .section-presentation h1 {
+    font-size: 5.5rem;
+  }
 }
