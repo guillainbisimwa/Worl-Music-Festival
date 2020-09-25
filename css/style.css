@@ -1,0 +1,280 @@
+/* Style Sheet */
+
+:root {
+  --primary-color: #ec5242;
+  --dark-color: #272a31;
+  --gray-color: #d3d3d3;
+  --gray-60-color: #2120204d;
+  --white-transparent: #f6f7f726;
+  --primary-transparent: #ec5242bf;
+}
+
+/* SETUP FONT */
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"), url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"), url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
+}
+
+/* GLOBALS */
+
+html {
+  font-size: 85%;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+/* COLORS */
+
+.c-primary {
+  color: var(--primary-color) !important;
+}
+
+.c-dark {
+  color: var(--dark-color);
+}
+
+.c-gray {
+  color: var(--gray-color);
+}
+
+.bg-primary_ {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+}
+
+.bg-gray {
+  background-color: var(--gray-color);
+}
+
+.bg-w-transparent {
+  background-color: var(--white-transparent);
+}
+
+.row {
+  margin: 0;
+}
+
+.col-sm,
+.col-sm-2,
+.col-sm-6,
+.col-sm-8,
+.col-sm-4 {
+  padding: 0;
+}
+
+.col-gap {
+  column-gap: 1.5rem;
+}
+
+/* Header */
+button.campaign {
+  background: transparent;
+  border: 0.3rem solid var(--primary-color);
+}
+
+button.campaign:hover {
+  background: transparent;
+  border: 0.3rem solid var(--primary-color);
+}
+
+/* Section 1 - Presentation */
+
+.section-presentation {
+  background: url(../img/bg-sec-1.png) top no-repeat;
+  background-size: cover;
+}
+
+.section-presentation h1 {
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  background-image: url(../img/bg-txt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.section-presentation h3 {
+  font-size: 2.5rem;
+}
+
+.section-presentation .details {
+  border: 0.3rem solid var(--gray-60-color);
+}
+
+.section-presentation h2 {
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+
+.adress {
+  font-size: 1.6rem;
+}
+
+/* Section 2 - Main program */
+.main-program {
+  background: url(../img/bg-rep.png) top repeat;
+}
+
+.main-program h5::after,
+.guests-section .head-title::after,
+.partners h5::after {
+  content: " ";
+  width: 5%;
+  background-color: var(--primary-color);
+  height: 0.2rem;
+  position: absolute;
+  bottom: 0;
+  left: 47.5%;
+}
+
+.main-program i.fas {
+  font-size: 2rem;
+}
+
+.see-more {
+  text-decoration: underline;
+}
+
+/* Section 3 - Guests */
+.guests-container div > div {
+  padding: 1rem;
+}
+
+.bg-profile {
+  position: absolute;
+  width: 40%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.artist-title span::after {
+  content: " ";
+  width: 10%;
+  background-color: var(--gray-color);
+  height: 0.1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Footer */
+.fa-closed-captioning {
+  font-size: 4.5rem;
+}
+
+footer .h2 {
+  line-height: 22px;
+  letter-spacing: 0;
+}
+
+/* About Page */
+
+.m-auto {
+  margin: auto;
+}
+
+.past {
+  height: 100%;
+  background: var(--primary-transparent);
+}
+
+.img-past {
+  background: url(../img/kigali.jpg) top no-repeat;
+}
+
+.img-past2 {
+  background: url(../img/kin.jpg) top no-repeat;
+}
+
+.img-past,
+.img-past2 {
+  background-size: cover;
+}
+
+.past-detail {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: fit-content;
+}
+
+.h-230 {
+  height: 230px !important;
+}
+
+/* Ticket Page */
+
+.tab-border {
+  border: 10px solid transparent;
+  padding: 0;
+  border-image: url(../img/envelop2.png) 100 round;
+}
+
+.sm-font {
+  font-size: 0.5rem;
+  padding-top: 10px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.fa-angle-down {
+  z-index: 1;
+  left: 0.4rem;
+  top: 0.8rem;
+  bottom: 0;
+  margin: auto;
+}
+
+.separation {
+  margin: -0.8rem auto;
+  width: 1%;
+}
+
+/* Navbar */
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+
+  .section-presentation h1 {
+    font-size: 5.5rem;
+  }
+}
