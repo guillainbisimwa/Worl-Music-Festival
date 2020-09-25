@@ -103,7 +103,7 @@ button.campaign:hover {
 }
 
 .section-presentation h1 {
-  font-family: "Cocogoose";
+  font-family: COCOGOOSE, Arial, Helvetica, sans-serif;
   font-size: 3rem;
   background-image: url(../img/bg-txt.jpg);
   background-repeat: no-repeat;
