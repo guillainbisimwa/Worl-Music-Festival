@@ -13,7 +13,9 @@
 
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"), url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"), url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
+  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"),
+    url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"),
+    url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
 }
 
 /* GLOBALS */
@@ -41,7 +43,7 @@ p {
 /* COLORS */
 
 .c-primary {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 
 .c-dark {
@@ -246,4 +248,13 @@ footer .h2 {
 .separation {
   margin: -0.8rem auto;
   width: 1%;
+}
+
+/* Navbar */
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
 }
