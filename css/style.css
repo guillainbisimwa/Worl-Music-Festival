@@ -13,9 +13,7 @@
 
 @font-face {
   font-family: "COCOGOOSE";
-  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"),
-    url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"),
-    url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
+  src: url("../fonts/COCOGOOSE/COCOGOOSE.woff2") format("woff2"), url("../fonts/COCOGOOSE/COCOGOOSE.woff") format("woff"), url("../fonts/COCOGOOSE/COCOGOOSE.ttf") format("truetype");
 }
 
 /* GLOBALS */
@@ -95,10 +93,6 @@ button.campaign {
 button.campaign:hover {
   background: transparent;
   border: 0.3rem solid var(--primary-color);
-}
-
-.c-pointer {
-  cursor: pointer;
 }
 
 /* Section 1 - Presentation */
@@ -279,6 +273,7 @@ header {
     left: 0;
     background-color: #fff;
   }
+
   .section-presentation h1 {
     font-size: 5.5rem;
   }
