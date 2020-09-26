@@ -20,7 +20,7 @@ I have followed the given design of the website [CC Global Summit 2015 by Cindy 
 
 - Github: [@guillainbisimwa](https://github.com/guillainbisimwa)
 - Twitter: [@gullain_bisimwa](https://twitter.com/gullain_bisimwa)
-- Linkedin: [linkedin](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/)
+- Linkedin: [guillain-bisimwa](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
